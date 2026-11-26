@@ -19,3 +19,20 @@
 @media(max-width:650px){.section-wrap{width:calc(100% - 38px)}.site-header{padding-inline:19px}.hero{grid-template-columns:1fr;padding-top:48px;padding-bottom:65px;gap:38px}.hero h1{font-size:clamp(57px,13vw,79px);margin-bottom:18px}.hero-copy .eyebrow{font-size:9px!important}.hero h2{font-size:18px}.hero-description{font-size:14px;line-height:1.8;margin-top:16px}.hero-art{max-width:400px;width:100%;margin-inline:auto;padding:15px}.hero-card{width:min(340px,94%)}.hero-portrait{height:310px}.hero-art:before{inset:30px 4px 4px}.hero-art:after{font-size:49px;right:8px}.strip-inner{justify-content:start;gap:22px}.section,#portfolio{padding-block:70px}.section-heading{margin-bottom:29px}.section-heading h2{font-size:clamp(36px,10vw,47px)}.section-subtitle{font-size:14px}.about-grid,.timeline,.certificate-panel,.portfolio-grid,.contact-wrap{grid-template-columns:1fr}.about-grid{gap:23px}.large-copy{font-size:24px}.skills-grid{grid-template-columns:1fr;gap:14px}.skill-card{min-height:0;padding:24px}.skill-symbol{margin:12px 0 7px}.timeline{gap:15px}.certificate-panel{padding:16px;gap:14px}.certificate-info{padding:12px 8px 7px}.certificate-info h3{font-size:25px}.project-visual,.project-feature .project-visual{height:275px}.project-info{padding:22px}.education-list{grid-template-columns:1fr}.education-card{padding:24px}.contact-section{padding:73px 0}.contact-heading h2{font-size:50px}.footer-inner{flex-wrap:wrap;padding-block:25px;justify-content:space-between;min-height:0}.footer p{width:100%;order:3;margin:0}.hero-meta{gap:10px}.portfolio-note{font-size:12px}}
 @media(max-width:390px){.hero h1{font-size:52px}.hero-actions .btn{padding:13px 17px}.hero-portrait{height:275px}.project-visual,.project-feature .project-visual{height:235px}.mock-post{padding:22px 24px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.hero-card,.project-card,.skill-card,.timeline-item,.btn{transition:none}}
+@media (max-width: 768px) {
+  .nav-links {
+    transition:
+      opacity 0.3s ease,
+      transform 0.3s ease,
+      visibility 0.3s ease;
+  }
+
+  .menu-toggle {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .menu-toggle span {
+    transition: transform 0.3s ease;
+  }
+}
